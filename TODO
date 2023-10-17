@@ -1,0 +1,10 @@
+
+Todo:
+  ☐ Main header menu [ (Logo -> link to home), (Language drop-down using flag -> AR default, EN)].
+      RTL and LTR while switching between languages
+  ☐ First Section -> book form (From, To, Trip date, Ticket class, Trip type, Passengers)
+      Trip date: Should use calendar.
+      Ticket class: Economy, Business and First
+      Trip type: One-way or Round-trip
+  ☐ . Second Section -> Simple blog 
+      3 cards horizontally
