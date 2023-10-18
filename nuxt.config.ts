@@ -1,15 +1,35 @@
 // https://nuxt.com/docs/api/configuration/nuxt-config
 export default defineNuxtConfig({
   devtools: { enabled: true },
-  modules: ["@nuxtjs/tailwindcss", "@nuxtjs/i18n", "nuxt-headlessui"],
+  modules: [
+    "@nuxtjs/i18n",
+    "nuxt-headlessui",
+    "@nuxt/ui",
+    "@nuxtjs/tailwindcss",
+  ],
   i18n: {
+    seo: true,
     locales: [
-      { code: "ar", file: "ar.json", name: "english" },
-      { code: "en", file: "en.json", name: "عربى" },
+      {
+        code: "en",
+        file: "en.json",
+        name: "english",
+        dir: "ltr",
+        iso: "en-US",
+      },
+      { code: "ar", file: "ar.json", name: "عربى", dir: "rtl", iso: "ar-sa" },
     ],
     langDir: "lang",
     lazy: true,
-    defaultLocale: "en",
-    strategy: "no_prefix",
+    defaultLocale: "ar",
+    defaultDirection: "rtl",
+    strategy: "prefix_and_default",
   },
+  colorMode: {
+    preference: "light",
+  },
+  ui: {
+    global: true,
+  },
+  css: ["~/assets/css/app.css"],
 });

@@ -1,3 +1,19 @@
 {
-  "text": "اختبار"
+  "text": "اختبار",
+  "to": "الى",
+  "from": "من",
+  "economy": "الدرجة الاقتصادية",
+  "bussiness": "درجة  رجال الاعمال",
+  "first": "الدرجة الاولة",
+  "trip-date": "تاريخ الرحلة",
+  "passengers": "ركاب",
+  "submit": "ارسال",
+  "ready-to-book-your-vacancy": "جاهز لحجز رحالتك",
+  "canada": "كندا",
+  "mexico": "المكسيك",
+  "united-states": "الولايات المتحدة",
+  "all-rights-are-preserved-by-aml-waled-and-copy-2023": "جميع الحقوق محفوظة &copy;  لأمل وليد",
+  "trip-type": "نوع الرحلة",
+  "ticket-class": "نوع التذكرة",
+  "view-more": "عرض التفاصيل"
 }

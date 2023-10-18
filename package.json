@@ -10,7 +10,9 @@
     "postinstall": "nuxt prepare"
   },
   "devDependencies": {
+    "@formkit/nuxt": "^1.2.2",
     "@nuxt/devtools": "latest",
+    "@nuxtjs/color-mode": "^3.3.0",
     "@nuxtjs/i18n": "^8.0.0-rc.5",
     "@nuxtjs/tailwindcss": "^6.8.0",
     "nuxt": "^3.7.4",
@@ -18,6 +20,8 @@
     "vue-router": "^4.2.5"
   },
   "dependencies": {
+    "@nuxt/ui": "^2.9.0",
+    "@vuepic/vue-datepicker": "^7.2.0",
     "nuxt-headlessui": "^1.1.4"
   }
 }
