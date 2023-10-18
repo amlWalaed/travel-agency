@@ -10,6 +10,10 @@ const bookingForm = reactive({
   passengers: null
 })
 const { locale } = useI18n()
+<<<<<<< HEAD
+=======
+
+>>>>>>> d1413d84515db06da3db9f126a9f2a05de452453
 const submit = () => {
   console.log('sent ');
 }
@@ -18,7 +22,11 @@ const submit = () => {
 
 <template>
   <section
+<<<<<<< HEAD
     class="container gap-12 pb-12 md:grid md:grid-cols-2 text-emerald-500 place-content-center">
+=======
+    class="container md:grid h-[85vh] gap-12 md:grid-cols-2 text-emerald-500 place-content-center">
+>>>>>>> d1413d84515db06da3db9f126a9f2a05de452453
     <img src="/images/travelling.svg" alt="booking a travel"
       class="object-contain w-full max-md:hidden" />
 
@@ -27,7 +35,11 @@ const submit = () => {
       <h1 class="mb-6 text-2xl font-semibold text-center">{{
         $t('ready-to-book-your-vacancy') }}</h1>
       <UForm :state="bookingForm" @submit="submit"
+<<<<<<< HEAD
         class="w-full px-6 space-y-6 capitalize grow">
+=======
+        class="w-full px-6 space-y-3 capitalize grow">
+>>>>>>> d1413d84515db06da3db9f126a9f2a05de452453
         <UFormGroup :label="$t('from')" required>
           <USelect v-model="bookingForm.from" :options="countries"
             :optionAttribute="locale === 'ar' ? 'name_ar' : 'name_en'"
@@ -48,8 +60,12 @@ const submit = () => {
         </UFormGroup>
         <UFormGroup :label="$t('ticket-class')" required>
           <USelect v-model="bookingForm.ticket_class" :options="ticketClasses"
+<<<<<<< HEAD
             :optionAttribute="locale === 'ar' ? 'name_ar' : 'name_en'"
             valueAttribute="id" />
+=======
+            option-attribute="name" valueAttribute="id" />
+>>>>>>> d1413d84515db06da3db9f126a9f2a05de452453
         </UFormGroup>
         <UFormGroup :label="$t('trip-date')" required>
           <DatePicker v-model="bookingForm.trip_date" />

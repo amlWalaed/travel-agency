@@ -9,12 +9,20 @@ const { t } = useI18n()
 </script>
 <template>
   <Html :lang="head?.htmlAttrs?.lang" :dir="head?.htmlAttrs?.dir">
+<<<<<<< HEAD
   <nav class="container sticky flex items-center justify-between px-6 py-4">
+=======
+  <nav class="container sticky flex items-center justify-between py-4">
+>>>>>>> d1413d84515db06da3db9f126a9f2a05de452453
     <AppLogo />
     <HeadlessMenu as="div" class="relative">
       <HeadlessMenuButton
         class="px-1 py-px border rounded border-primary text-primary">
+<<<<<<< HEAD
         {{ locales.find(l => l.code === lang).name }}
+=======
+        {{ lang }}
+>>>>>>> d1413d84515db06da3db9f126a9f2a05de452453
       </HeadlessMenuButton>
       <HeadlessMenuItems
         class="absolute flex flex-col items-center justify-center gap-2 p-2 mt-2 rounded shadow-sm top-full rtl:left-0 ltr:right-0 text-primary">
@@ -27,9 +35,15 @@ const { t } = useI18n()
       </HeadlessMenuItems>
     </HeadlessMenu>
   </nav>
+<<<<<<< HEAD
   <main class="px-6 ">
     <slot />
   </main>
+=======
+  <div>
+    <slot />
+  </div>
+>>>>>>> d1413d84515db06da3db9f126a9f2a05de452453
   <footer class=" bg-primary">
     <div
       class="container flex items-center justify-between py-2 text-xs text-white">
