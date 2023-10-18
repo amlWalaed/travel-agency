@@ -1,3 +1,19 @@
 {
-  "text": "text"
+  "text": "text",
+  "to": "to",
+  "from": "from",
+  "economy": "Economy",
+  "bussiness": "Bussiness",
+  "first": "First",
+  "trip-date": "Trip Date",
+  "passengers": "passengers",
+  "submit": "submit",
+  "ready-to-book-your-vacancy": "Ready To Book Your Vacancy",
+  "united-states": "United States",
+  "canada": "Canada",
+  "mexico": "Mexico",
+  "all-rights-are-preserved-by-aml-waled-and-copy-2023": "All Rights preserved by Aml Waled &copy; 2023",
+  "trip-type": "Trip Type",
+  "ticket-class": "Ticket Class",
+  "view-more": "view more"
 }
